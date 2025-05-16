@@ -495,7 +495,9 @@
       <!--
         - #RESUME
       -->
-
+      <button class="button-64">
+      <a href="https://drive.google.com/file/d/1JbSHFp9GPjQZYUYn-PGEe9W0M90wmOGu/view?usp=sharing" download="Alok_Sharma_CV_May2025.pdf"><center>Download Resume</center></a>
+      </button>
       <article class="resume" data-page="resume">
 
         <header>
@@ -1149,7 +1151,7 @@ leakage, effectively protecting the client's digital reputation and information 
           </figure>
         </section>
 
-        <section class="contact-form">
+        <!-- <section class="contact-form">
 
           <h3 class="h3 form-title">Contact Form</h3>
 
@@ -1170,8 +1172,23 @@ leakage, effectively protecting the client's digital reputation and information 
 
           </form>
 
-        </section>
+        </section> -->
 
+
+        <section class="contact-form">
+          <h3 class="h3 form-title">Contact Form</h3>
+          <form action="#" class="form" data-form netlify>
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+            </div>
+            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+            <button class="form-btn" type="submit" disabled data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Send Message</span>
+            </button>
+          </form>
+        </section>
       </article>
 
     </div>
